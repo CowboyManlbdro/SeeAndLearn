@@ -1,0 +1,369 @@
+body, html {
+		width: 1920px;
+		height: 967px;
+margin:0px;
+padding:0px;
+text-align:center;
+}
+
+#zatemnenie {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+      #okno {
+        width: 300px;
+        height: 82px;
+        text-align: center;
+        padding: 10px;
+        border: 3px solid #5f99c8;
+        border-radius: 10px;
+        color: #5f99c8;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        background: #fff;
+      }
+      #zatemnenie:target {display: block;}
+      .close {
+        display: inline-block;
+        border: 1px solid #5f99c8;
+        color: #5f99c8;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #ffffff;
+        font-size: 28px;
+        cursor:pointer;
+      }
+      .close:hover {background: #ffffff;}
+
+#list{
+margin:0 auto;
+text-align:left;
+width:800px;
+}
+
+#header{
+	height: 150px;
+background-color:#F0FFFF;
+background-image:url(l.png); 
+background-position: center;
+background-repeat: no-repeat;
+padding: 0px 10px;
+
+}
+
+
+#header h1 {
+margin: 10px;
+padding: 10px 0;
+font-family: Monly Lite;
+font-size: 72px;
+}
+
+#header h2 {
+margin: 5px;
+padding: 5px 0;
+font-size: 33px;
+font-family: Monly Lite Light;
+
+}
+.dropdown-menu {
+  margin: 5px;
+padding: 5px 0;
+font-size: 33px;
+font-family: Monly Lite Light;
+}
+
+#header h3 {
+margin: 10px;
+padding: 10px 0;
+font-family: Monly Lite Light;
+
+}
+
+ #open-button {
+    position: fixed;
+    top: 36px;
+    right: 26px;
+    width: 190px;
+   }
+
+   .form-popup {
+   	background-color: #F0FFFF;
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 14px;
+    height: 420px;
+}
+
+  
+.form-container {
+
+    max-width: 320px;
+
+}
+
+ .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+}
+
+ .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+}
+
+ .form-container .btn {
+    background-color: #1976D2;
+    opacity: 0.7;
+}
+
+
+.form-container .cancel {
+
+    background-color: #448AFF;
+
+}
+
+ .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
+#lol{
+  position: fixed;
+  top: 50px;
+    right: 350px;
+  width: 330px;
+  margin: 0 auto;
+
+}
+
+.log h2{
+  position: fixed;
+    top: -10px;
+    right: 34px;
+    
+}
+
+
+
+.home a {
+ position: fixed; 
+  top: 5px;
+  right: 788px;
+  width: 497px;
+  height: 128px;
+  border: none;
+  background: #5f99c800;
+  cursor: pointer;
+}
+
+.foto img {
+  position: fixed; 
+  top: 5px;
+  right: 222px;
+  height: 139px; 
+  width: 119px;
+}
+
+.descr{
+    display:none;
+    margin-left:-350px;
+    padding:10px;
+    margin-top:17px;
+    background:#5f99c800;
+    height:150px;
+ /*   -moz-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    box-shadow:0 5px 5px rgba(0,0,0,0.3);*/
+}
+
+.foto:hover .descr{
+    display:block;
+    position:fixed;
+    top:127px;
+    right: 203px;
+    width:163px;
+}
+
+.d1 input {
+  width: 330px;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #5f99c8;
+  border-radius: 5px;
+  outline: none;
+  font-family: Monly Lite Light;
+  font-size: 25px;
+  background: #ffffff;
+  color: #5f99c8;
+}
+.d1 button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 50px;
+  height: 42px;
+  border: none;
+  background: #5f99c8;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.d1 button:before {
+  content: "Найти";
+  font-family: Monly Lite Light;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+#left{
+background-color:#F0FFFF;
+width:250px;
+height: 815px;
+float:left;
+}
+
+#right{
+	padding-left: 5px;
+width:250px;
+height: 150px;
+background-color:#F0FFFF;
+float:right;
+font-family: Monly Lite Light;
+}
+
+
+#cen {
+	width: 1900px;
+	height: 600px;
+  font-family: Monly Lite Light;
+  color: #337ab7;
+background-color: #FFFFFF;
+margin:0px;
+margin-left:0px;
+margin-right:0px;
+
+}
+
+#cen td {
+margin: 10px;
+padding: 10px 0;
+font-family: Monly Lite Light;
+font-size: 33px;
+}
+
+
+#cen h1 {
+margin: 10px;
+padding: 10px 0;
+font-family: Monly Lite;
+font-size: 65px;
+}
+
+
+#cen h2 {
+margin: 5px;
+padding: 5px 0;
+font-size: 33px;
+font-family: Monly Lite Light;
+
+}
+#cen select{
+  height: 50px;
+  font-weight: 900;
+  font-size:25px;
+}
+#cen input{
+  font-weight: 900;
+}
+#clear{
+height:0;
+font-size:1px;
+line-height:0px;
+clear:both;
+}
+
+#footer{
+	height: 219px;
+background-color:#F0FFFF;
+}
+
+nav {background-color:#F0FFFF;
+background-image:url(l.png); 
+background-position: center;
+background-repeat: no-repeat;}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  transition: .3s linear;
+}
+.topmenu > li {
+  float: left;
+  position: relative;
+  border-left: 1px solid black;
+}
+.topmenu > li:first-child {border-left: 0;}
+.topmenu > li > a {  
+  padding: 20px 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #FEFDFD;
+  letter-spacing: 2px;
+}
+.topmenu > li > a.active, 
+.submenu a:hover {color: #5f99c8;}
+.topmenu .fa, 
+.submenu .fa {
+  margin-left: 5px;
+  color: inherit;
+}
+.submenu {
+  position: absolute;
+  z-index: 5;
+  min-width: 200px;
+  background: white;
+  border-top: 1px solid #CBCBCC;
+  border-left: 1px solid #CBCBCC;
+  border-right: 1px solid #CBCBCC;
+  visibility: hidden;
+  opacity: 0; 
+  transform-origin: 0% 0%;
+  transform: rotateX(-90deg);
+  transition: .3s linear;  
+}
+.submenu li {position: relative;}
+.submenu li a {
+  color: #282828;
+  padding: 10px 20px;
+  font-size: 13px;
+  border-bottom: 1px solid #CBCBCC;
+}
+.submenu .submenu {
+  position: absolute;
+  left: 100%;
+  top: -1px;
+  transition: .3s linear;
+}
+nav li:hover > .submenu {
+  transform: rotateX(0deg);
+  visibility: visible;
+  opacity: 1;
+}
